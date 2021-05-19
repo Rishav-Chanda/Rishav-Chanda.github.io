@@ -1,6 +1,4 @@
 import React from 'react';
-import $ from 'jquery';
-import Popper from 'popper.js';
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.bundle";
 import Card from './components/Card';
