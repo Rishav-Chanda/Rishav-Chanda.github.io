@@ -8,29 +8,35 @@
 }
 
 .side_padding_bg {
-    background-color: #0F1111 !important;
+    background-color: #ffffff !important;
 
 }
 
 .navbar {
-    background-color: #0F1111 !important;
+    background-color: #ffffff !important;
+}
+
+.navbar-custom{
+    max-height: 35px;
+}
+
+.btn-height{
+    max-height: 45px;
 }
 
 .navbar-brand {
     font-size: 1.9rem !important;
 }
 
-.navbar a {
+.navbar a{
     font-size: 1.3rem;
     text-transform: capitalize;
-    text-decoration-color: white !important;
+    color: rgb(14, 13, 13) !important;
 }
 
 .menu_active {
     font-weight: bold;
-    border-bottom: 1px solid rgb(55, 241, 160);
-    border-top: 1px solid rgb(55, 241, 160);
-    border-right: 1px solid rgb(55, 241, 160);
+    
 }
 
 .navbar a:hover {

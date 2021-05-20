@@ -6,18 +6,17 @@ const Navbar = () => {
   return (
 
     <>
-      <div className="container-fluid nav_bg navbar-dark side_padding_bg">
+      <div className="container-fluid nav_bg navbar-dark side_padding_bg shadow p-3 mb-5 bg-body rounded h-25">
         <div className='row'>
           <div className="col-10 mx-auto">
 
 
 
 
-            <nav className="navbar navbar-expand-lg navbar-dark ">
+            <nav className="navbar navbar-expand-lg navbar-dark navbar-custom ">
               <div className="container-fluid">
                 <a class="navbar-brand " href="#" >
-                  <img src="https://firebasestorage.googleapis.com/v0/b/login-ea5e2.appspot.com/o/code.svg?alt=media&token=310eae8c-35c9-487f-81c6-baaf32153c7b" alt="" width="50" height="50" class="d-inline-block align-text-top" />
-                  Rishav Chanda
+                  <img src="https://firebasestorage.googleapis.com/v0/b/login-ea5e2.appspot.com/o/20210520_221246.png?alt=media&token=40570207-2e07-4264-b927-d57825470682" alt="" width="20" height="8" class="d-inline-block align-text-top" />
                 </a>
 
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -25,25 +24,25 @@ const Navbar = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarNavDropdown">
                   <ul className="navbar-nav ml-auto mb-2 mb-lg-0">
-                    <li className="nav-item">
+                    <li className="nav-item mr-2 navbar-texts">
                       <NavLink activeClassName="menu_active" exact className="nav-link " aria-current="page" to="/">Home</NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item mr-2 ">
                       <NavLink activeClassName="menu_active" className="nav-link " aria-current="page" to="/about">About</NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item mr-2">
                       <NavLink activeClassName="menu_active" className="nav-link " aria-current="page" to="/courses">Courses</NavLink>
                     </li>
-                    <li className="nav-item">
+                    <li className="nav-item  mr-5">
                       <NavLink activeClassName="menu_active" className="nav-link " aria-current="page" to="/contact">Contact</NavLink>
                     </li>
-                    <button type="button" className="nav-item btn btn-outline-success btn-sm mr-5">
+                    <li type="button" className="nav-item btn btn-success mr-2  btn-height ">
                       <NavLink activeClassName="menu_active" className="nav-link " aria-current="page" to="/login">Login</NavLink>
-                    </button>
-                    <button  type="button" className="nav-item btn btn-outline-info">
+                    </li>
+                    <li type="button" className="nav-item btn btn-info btn-height" >
                       <NavLink activeClassName="menu_active" className="nav-link " aria-current="page" to="/singup">SingUp</NavLink>
-                    </button>
-                   
+                    </li>
+
                   </ul>
                 </div>
               </div>
