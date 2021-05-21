@@ -1,49 +1,64 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@900&display=swap');
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;font-family: 'Montserrat', sans-serif;
 }
 
 .side_padding_bg {
-    background-color: #ffffff !important;
+    background-color: #fff !important;
 
 }
 
 .navbar {
-    background-color: #ffffff !important;
-}
-
-.navbar-custom{
-    max-height: 35px;
-}
-
-.btn-height{
-    max-height: 45px;
+    background-color: #fff !important;
 }
 
 .navbar-brand {
-    font-size: 1.9rem !important;
+    font-size: 2.2rem !important;
+    font-weight: bold;
+    color: rgb(23 56 101) !important;
+    font-family: 'Noto Sans KR', sans-serif !important;
+}
+.navbar-brand-big{
+    font-size: 3rem !important;
+    font-weight: bold;
+    color: rgb(23 56 101) !important;
+    font-family: 'Noto Sans KR', sans-serif !important;
+
 }
 
-.navbar a{
-    font-size: 1.2rem;
-   
-    color: rgb(24, 23, 23) !important;
+.navbar-nav a{
+    font-size: 1.3rem;
+    color: rgb(41, 41, 41) !important;
 }
 
 .nav-item{
-    font-weight: 500;
-    text-transform: uppercase;
+    font-weight: 200;
+}
+.btn-color{
+    background-color: rgb(23 56 101) !important;
+    color: #fff !important;
+    border: none !important;
+    border-radius: 1.3rem !important;
+    border-bottom-right-radius: 0 !important;
+    padding: 10px 20px !important;
+    margin-bottom: 0.5rem;
+}
+.btn-color-orange{
+    background-color: rgb(226, 61, 61) !important;
+    color: rgb(255, 255, 255) !important;
+    border: none !important;
+    border-radius: 1.8rem !important;
+    border-bottom-right-radius: 0 !important;
+    padding: 15px 20px !important;
+    margin-bottom: 0.5rem;
 }
 .menu_active,
-.navbar-dark .navbar-nav .nav-link:hover{
-    color: rgb(255, 255, 255) !important;
-    background: rgb(0, 255, 191) !important;
-    border-radius: 0.5rem;
-    padding: 8px 15px;
+.navbar-nav a:hover{
+    border-bottom: 3px solid rgb(23 56 101);
 }
 
 
