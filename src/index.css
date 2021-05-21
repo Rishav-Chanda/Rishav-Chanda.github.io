@@ -29,16 +29,24 @@
 }
 
 .navbar a{
-    font-size: 1.3rem;
-    text-transform: capitalize;
-    color: rgb(14, 13, 13) !important;
+    font-size: 1.2rem;
+   
+    color: rgb(24, 23, 23) !important;
 }
 
-.menu_active {
-    font-weight: bold;
-    
+.nav-item{
+    font-weight: 500;
+    text-transform: uppercase;
+}
+.menu_active,
+.navbar-dark .navbar-nav .nav-link:hover{
+    color: rgb(255, 255, 255) !important;
+    background: rgb(0, 255, 191) !important;
+    border-radius: 0.5rem;
+    padding: 8px 15px;
 }
 
-.navbar a:hover {
-    color: rgb(55, 241, 160) !important;
-}
+
+
+ 
+

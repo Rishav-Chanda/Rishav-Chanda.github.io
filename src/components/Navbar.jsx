@@ -13,7 +13,7 @@ const Navbar = () => {
 
 
 
-            <nav className="navbar navbar-expand-lg navbar-dark navbar-custom ">
+            <nav className="navbar navbar-expand-lg navbar-light navbar-custom ">
               <div className="container-fluid">
                 <a class="navbar-brand " href="#" >
                   <img src="https://firebasestorage.googleapis.com/v0/b/login-ea5e2.appspot.com/o/20210520_221246.png?alt=media&token=40570207-2e07-4264-b927-d57825470682" alt="" width="20" height="8" class="d-inline-block align-text-top" />
