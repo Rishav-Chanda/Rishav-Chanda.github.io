@@ -16,7 +16,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light navbar-custom ">
               <div className="container-fluid">
                 <a class="navbar-brand " href="#" >
-                <span>&#60;</span>Rishav<span>&#47;</span>Chanda<span>&#62;</span>
+                <span className="span-color-green">&#60;</span>Rishav<span className="span-color-orange">&#47;</span>Chanda<span className="span-color-green">&#62;</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
@@ -41,7 +41,7 @@ const Navbar = () => {
                   <div className="d-flex">
                     <NavLink className="btn btn-color mr-2 ml-4" to="/login">Login
                     </NavLink>
-                    <NavLink className="btn btn-color" to="/singup">SingUp
+                    <NavLink className="btn btn-color" to="/singup">SignUp
                     </NavLink>
                   </div>
                 </div>
