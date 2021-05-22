@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;font-family: 'Montserrat', sans-serif;
+    overflow-x: hidden;
 }
 
 .side_padding_bg {
@@ -72,6 +73,7 @@
     margin: 0 0 10px 0;
     font-size: 48px;
     font-weight: 700;
+    overflow-x: unset;
 }
 
 .btn-color-orange{
@@ -96,9 +98,13 @@
 /* login page*/
 .content{
     margin: 8%;
+    border-radius: 1.3rem !important;
+    border-top: 5px solid rgb(5, 126, 148);
+    border-bottom:1px solid rgb(5, 114, 94);
+    border-right: 1px solid rgb(5, 114, 94);
+    border-left:  1px solid rgb(5, 114, 94);
     background-color: #fff;
     padding: 2rem 1rem 2rem 1rem;
-    box-shadow: 0 0 20px 20px rgba(0, 0, 0, 0.1);
 }
 
 .login-text{
@@ -133,7 +139,7 @@
 
 .btn-class{
     width: 100%;
-    background-color: rgb(5, 114, 94) !important;
+   
     color: #fff !important;
     border: none ;
     border-radius: 0.3rem !important;
@@ -161,12 +167,40 @@
 .span-color-green{
     color: rgb(5, 114, 94) !important;
 }
+.color-green{
+    background-color: rgb(5, 114, 94) !important;
+}
 
 .span-color-orange{
     color: rgb(226, 61, 61) !important;
 }
+.color-lightgreen{
+    background-color: rgb(57, 161, 161) !important;
+}
 
 
+.social{
+    display: flex;
+    margin-top: 1rem;
+    justify-content: center;
+}
 
+.social a{
+    display: flex;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border: turquoise !important;
+    border-radius: 50%;
+    margin-right: 0.6rem;
+    transition: all .3s ease;
+
+}
+
+.social a img{
+    width: 100%;
+    height: 100%;
+    padding: 0.5rem;
+}
  
 

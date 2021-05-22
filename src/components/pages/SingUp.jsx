@@ -25,7 +25,7 @@ const SingUp = () => {
                                 <input type="password" name="password" className="form-control" />
                             </div>
 
-                            <button className="btn btn-class">REGISTER</button>
+                            <button className="btn btn-class color-green">REGISTER</button>
                         </form>
 
                     </div>

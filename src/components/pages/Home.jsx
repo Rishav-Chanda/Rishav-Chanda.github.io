@@ -26,7 +26,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="col-lg-6 order-1 order-lg-2 header-image ">
-                  <img className="mr-5" src="https://firebasestorage.googleapis.com/v0/b/login-ea5e2.appspot.com/o/Programming.gif?alt=media&token=55b82912-fbb1-4fb5-a32e-f0de8ba28a84" alt="" />
+                  <img className="mr-5 image-size img-fluid" src="https://firebasestorage.googleapis.com/v0/b/login-ea5e2.appspot.com/o/Programming.gif?alt=media&token=55b82912-fbb1-4fb5-a32e-f0de8ba28a84" alt="" />
 
                 </div>
               </div>
