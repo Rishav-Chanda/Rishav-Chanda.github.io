@@ -1,6 +1,22 @@
-import React from "react"
 
-const Login = () => {
+import React  from "react";
+
+const Login = (props) => {
+
+    const {
+        email,
+        setEmail,
+        password,
+        setPassword, 
+        handleLogin,
+        handleSingup,
+        hasAccount,
+        setHasAccount,
+        emailError,
+        passwordError
+
+    }=props;
+
     return (
 
         <>
