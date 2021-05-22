@@ -16,7 +16,7 @@ const Navbar = () => {
             <nav className="navbar navbar-expand-lg navbar-light navbar-custom ">
               <div className="container-fluid">
                 <a class="navbar-brand " href="#" >
-                  RishavChanda
+                <span>&#60;</span>Rishav<span>&#47;</span>Chanda<span>&#62;</span>
                 </a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>

@@ -47,6 +47,33 @@
     padding: 10px 20px !important;
     margin-bottom: 0.5rem;
 }
+
+.menu_active,
+.navbar-nav a:hover{
+    border-bottom: 3px solid rgb(23 56 101);
+}
+
+@media(max-width: 991px) {
+    .navbar-brand{
+        font-size: 1.5rem !important;
+    }
+
+    .menu_active{
+        border-bottom: none;
+    }
+}
+
+/*Main Header and body landing section*/
+#header{
+    width: 100%;
+}
+
+#header h1{
+    margin: 0 0 10px 0;
+    font-size: 48px;
+    font-weight: 700;
+}
+
 .btn-color-orange{
     background-color: rgb(226, 61, 61) !important;
     color: rgb(255, 255, 255) !important;
@@ -56,9 +83,22 @@
     padding: 15px 20px !important;
     margin-bottom: 0.5rem;
 }
-.menu_active,
-.navbar-nav a:hover{
-    border-bottom: 3px solid rgb(23 56 101);
+.btn-color-orange:hover{
+    background-color: rgb(5, 60, 148) !important;
+    color: rgb(255, 255, 255) !important;
+    border: none !important;
+    border-radius: 1.8rem !important;
+    border-bottom-right-radius: 0 !important;
+    padding: 15px 20px !important;
+    margin-bottom: 0.5rem;
+}
+
+/* login page*/
+.content{
+    margin: 8%;
+    background-color: #fff;
+    padding: 4rem 1rem 4rem 1rem;
+    box-shadow: 0 0 5px 5px rgba(0, 0, 0, .05);
 }
 
 
