@@ -30,13 +30,15 @@ const Login = (props) => {
                         <form action="">
                             <div className="form-group">
                                 <label htmlFor="email">Email</label>
-                                <input type="email" name="email" className="form-control" />
+                                <input type="email" name="email" className="form-control" required value={email} onChange={(e) => setEmail(e.target.value)} />
+                                <p className="errorTag">{emailError}</p>
                             </div>
                             <div className="form-group">
                                 <label htmlFor="password">Password</label>
-                                <input type="password" name="password" className="form-control"/>
+                                <input type="password" name="password" className="form-control" required value={password} onChange={(e) => setPassword(e.target.value)} />
+                                <p className="errorTag">{passwordError}</p>
                             </div>
-                            <button className="btn btn-class color-green">LOGIN</button>
+                            <button className="btn btn-class color-green" onClick={handleLogin}>LOGIN</button>
                         </form>
 
                     </div>
