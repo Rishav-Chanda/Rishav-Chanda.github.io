@@ -1,6 +1,8 @@
 import React from "react"
 
-const SingUp = () => {
+
+const SingUp = (props) => {
+   
     return (
 
         <>
