@@ -1,4 +1,5 @@
 import React from "react"
+import singUp from "../assets/images/singUp.gif"
 
 
 const SingUp = (props) => {
@@ -9,7 +10,7 @@ const SingUp = (props) => {
             <div className="container">
                 <div className="row content">
                     <div className="col-md-6 mb-3">
-                        <img className="img-fluid image-size" src="https://firebasestorage.googleapis.com/v0/b/login-ea5e2.appspot.com/o/Mobile%20login.gif?alt=media&token=3d84ac1c-fdfe-4879-a354-1935b55a6929" alt="" />
+                        <img className="img-fluid image-size" src={singUp} alt="" />
                     </div>
                     <div className="col-md-6 mb-3">
                         <h4 className="login-text mb-3 navbar-brand"> SignUp</h4>

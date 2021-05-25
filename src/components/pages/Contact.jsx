@@ -1,5 +1,5 @@
 import React from "react"
-
+import contact from "../assets/images/contact.gif"
 const Contact = () => {
     return (
 
@@ -7,7 +7,7 @@ const Contact = () => {
             <div className="container ">
                 <div className="row content ">
                     <div className="col-md-6 ">
-                        <img className="img-fluid image-size" src="https://firebasestorage.googleapis.com/v0/b/login-ea5e2.appspot.com/o/Mail%20sent.gif?alt=media&token=73085c6f-2798-46e7-a7ab-bd7164e0a268" alt="" />
+                        <img className="img-fluid image-size" src={contact} alt="" />
                     </div>
                     <div className="col-md-6 mb-3">
                         <h4 className="login-text mb-3 navbar-brand">Contact Me</h4>
