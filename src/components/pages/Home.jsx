@@ -1,5 +1,5 @@
 import React from "react"
-import Card from "../Card"
+import Projects from "../Projects"
 import { NavLink } from "react-router-dom";
 
 const Home = () => {
@@ -38,7 +38,7 @@ const Home = () => {
         </div>
 
       </section>
-      <Card/>
+      <Projects/>
       <div>
 
       </div>

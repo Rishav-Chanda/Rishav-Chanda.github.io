@@ -1,7 +1,6 @@
 import React from 'react';
 import { useEffect } from "react";
 import { useState } from "react";
-
 import { getAuth, onAuthStateChanged } from "../node_modules/firebase/auth";
 import "../node_modules/bootstrap/dist/css/bootstrap.min.css";
 import "../node_modules/bootstrap/dist/js/bootstrap.min.js"
