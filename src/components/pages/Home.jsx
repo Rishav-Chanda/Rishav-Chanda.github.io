@@ -8,7 +8,7 @@ const Home = () => {
     <>
       <section id="header" className="d-flex align-items-center mt-5 " >
         <div className="container-fluid nav_bg">
-          <div className="row mt-5">
+          <div className="row mt-4">
             <div className="col-10 mx-auto">
               <div className="row mt-5">
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
