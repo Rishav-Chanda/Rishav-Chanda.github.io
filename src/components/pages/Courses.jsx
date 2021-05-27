@@ -1,10 +1,11 @@
 import React from "react"
+import Tutorials from "../Tutorials"
 
 const Courses = () => {
     return(
 
         <> 
-        <h1>Welcome Courses</h1>
+        <Tutorials/>
         </>
 
     );

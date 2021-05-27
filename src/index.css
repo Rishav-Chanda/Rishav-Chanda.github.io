@@ -9,12 +9,6 @@
     overflow-x: hidden;
 }
 
-body {
-    background-image: url('/src/components/assets/images/background.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-  }
 
 .side_padding_bg {
     background-color: transparent !important;
@@ -223,6 +217,10 @@ body {
 }
 
 /*Cards*/
+.projects{
+    background-image: linear-gradient(rgb(212, 250, 221),rgb(233, 226, 251)) !important;
+
+}
 
 .btn-card{
     width: 100%;
@@ -247,18 +245,66 @@ body {
     margin-bottom: 0.5rem;
 }
 
-.services{
+.section{
     padding-top: 4rem;
     padding-bottom: 3rem;
     background: var(--light);
+    
 }
 .card-wrapper{
     display: grid;
+    padding: 2rem;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 2rem;
-    grid-row-gap: 4rem;
+    grid-column-gap: 3rem;
+    grid-row-gap: 0rem;
 }
 
+/*tutorials*/
+
+.tutorials{
+    background-image: linear-gradient(rgb(233, 226, 251),rgb(212, 250, 221));
+
+}
+
+.project-card{
+    background: #fff;
+    padding:3rem 2rem ;
+    position: relative;
+    padding-top: 5rem;
+    text-align: center;
+    transition: all .3s ease;
+    border-radius: 1rem;
+    border-width: 0.1rem;
+}
+.project-card:hover{
+    background: var(--dark);
+}
+
+.project-card img{
+    margin-top: -3rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+@media (max-width:600px){
+    
+.section{
+        padding-top: 3rem;
+        background: var(--light);
+    }
+
+.card-wrapper{
+        grid-template-columns: repeat(1,1fr);
+        padding: 1rem;
+        margin-top: 6rem;
+    }
+
+}
 
  
 

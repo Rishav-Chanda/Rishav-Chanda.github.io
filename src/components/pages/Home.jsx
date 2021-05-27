@@ -1,5 +1,6 @@
 import React from "react"
 import Projects from "../Projects"
+import Tutorials from "../Tutorials"
 import { NavLink } from "react-router-dom";
 import headerimage from "../assets/images/header.svg"
 
@@ -40,6 +41,7 @@ const Home = () => {
 
       </section>
       <Projects/>
+      <Tutorials/>
       <div>
 
       </div>

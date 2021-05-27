@@ -1,14 +1,14 @@
 import React from 'react';
-import Card from "./ProjectCard"
+import Card from "./TutorialsCards"
 
 
-const Projects = () => {
+const Tutorials = () => {
     return (
         <>
-            <section id="services" class="projects section">
+            <section id="services" class="tutorials section">
                 <div class="container">
-                    <h1 class="section-heading"><strong>Projects Source Codes</strong></h1>
-                    <p className="section-heading-p">Gel all my Projects Tutorials with source codes here</p>
+                    <h1 class="section-heading"><strong>Coding Courses</strong></h1>
+                    <p className="section-heading-p">Gel all Coding Tutorials of different Programming languages and frame work tap to watch</p>
                     <div class="card-wrapper">
 
                         <Card/>
@@ -25,4 +25,4 @@ const Projects = () => {
     );
 };
 
-export default Projects;
+export default Tutorials;
