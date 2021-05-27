@@ -8,12 +8,12 @@ const Home = () => {
 
     <>
       <section id="header" className="d-flex align-items-center mt-5 " >
-        <div className="container-fluid nav_bg">
+        <div className="container-fluid nav_bg ">
           <div className="row mt-4">
-            <div className="col-10 mx-auto">
-              <div className="row mt-5">
+            <div className="col-10 container">
+              <div className="row">
                 <div className="col-md-6 pt-5 pt-lg-0 order-2 order-lg-1 d-flex justify-content-center flex-column">
-                  <h1 className="mr-5">
+                  <h1 className="">
                     Get all <strong className="navbar-brand-big">Tutorials   </strong> and <strong className="navbar-brand-big">Projects</strong > with <strong className="navbar-brand-big">SourceCode</strong>
                   </h1>
                   <h5 className="my-3 text-secondary">
@@ -27,7 +27,7 @@ const Home = () => {
                   </div>
                 </div>
                 <div className="col-lg-6 order-1 order-lg-2 header-image ">
-                  <img className="mr-5 image-size img-fluid" src={headerimage} alt="" />
+                  <img className="ml-5 image-size img-fluid" src={headerimage} alt="" />
 
                 </div>
               </div>
