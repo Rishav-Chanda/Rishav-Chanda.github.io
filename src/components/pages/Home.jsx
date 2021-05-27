@@ -1,7 +1,7 @@
 import React from "react"
 import Projects from "../Projects"
 import { NavLink } from "react-router-dom";
-import headerimage from "../assets/images/headerimage.svg"
+import headerimage from "../assets/images/header.svg"
 
 const Home = () => {
   return (
